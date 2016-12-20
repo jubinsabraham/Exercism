@@ -1,0 +1,17 @@
+
+class Raindrops
+  def self.convert(num)
+    if num == 1
+      message += '1'
+    end
+    if num % 3 == 0
+      message += 'Pling'
+    end
+    if num % 5 == 0
+      message += 'Plang'
+    end
+    if num % 7 == 0
+      message += 'Plong' 
+    end
+  end
+end

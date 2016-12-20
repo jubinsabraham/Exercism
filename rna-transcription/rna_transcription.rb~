@@ -1,0 +1,23 @@
+class Compliment
+  def self.of_dna(dna)
+    while i < dna.length
+      if dna[i] == 'C'
+        dna_list.push('G')
+      elsif dna[i] == 'G'
+        dna_list.push('C')
+      elsif dna[i] == 'T'
+        dna_list.push('A')
+      elsif dna[i] == 'A'
+        dna_list.push('U')
+      elsif dna[i] == 'U'
+        dna_list.push('')
+      elsif dna =='XXX'
+        dna_list.push('')
+      else
+        dna_list.push('')
+      end
+      i = i + 1
+    end
+    dna_list
+  end
+end

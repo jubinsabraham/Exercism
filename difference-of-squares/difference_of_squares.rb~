@@ -1,0 +1,12 @@
+class Squares
+  def initialize(number)
+    @number = number
+  end
+
+  def square_of_sum
+    sum = 0
+    (0..@number).each do |i|
+      sum = sum + i
+    sum ** 2
+  end
+      

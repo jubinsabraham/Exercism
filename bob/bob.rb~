@@ -1,0 +1,12 @@
+class Bob
+  def self.hey(remark)
+    if remark == remark.upcase && remark ~= [0-9A-Z]
+      return 'Whoa chill out!'
+    elsif remark.end_with?('?')
+      return 'Sure'
+    else
+      return 'Whatever'
+    end
+  end
+end
+      

@@ -1,0 +1,5 @@
+class Hello_World
+  def self(name):
+    "Hello,#{name}"
+end
+end

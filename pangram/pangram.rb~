@@ -1,0 +1,9 @@
+class Pangram
+  def pangram?(phrase)
+    sentence = phrase.downcase.chars
+    keys = ('a'..'z').to_a
+    if (sentence - keys).empty?:
+                           return TRUE
+    else
+      return FALSE
+    

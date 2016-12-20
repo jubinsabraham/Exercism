@@ -1,0 +1,8 @@
+class Prime
+  def self.nth(num)
+    count = 0
+    flag = 0
+    prime_list = []
+    while count <= num
+      
+     

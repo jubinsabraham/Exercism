@@ -1,0 +1,25 @@
+class Sieve
+  def initialize(num_range)
+    @num_range = num_range
+  end
+
+  def primes
+    prime_list = []
+    (2..@num_range).each do |i|
+      flag = 0
+      (2..i-1).each do |j|
+          if i % j == 0
+            flag = 1
+            break
+          else
+            next
+          end
+        end
+        if flag == 0
+          prime_list.push(i)
+        end
+    end
+    prime_list
+  end
+end        
+            
