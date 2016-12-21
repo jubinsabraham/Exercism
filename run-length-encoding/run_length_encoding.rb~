@@ -1,0 +1,12 @@
+class RunLengthEncoding
+  def self.encode(input)
+    encoded_string = ''
+    encoded_string_array = []
+    input.chars.each { |i|
+      count = input.count(/[i+]/) 
+      encoded_string += count.to_s
+      encoded_string += i
+    }
+    return encoded_string.chars.uniq.join('')
+  end
+end

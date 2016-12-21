@@ -1,0 +1,7 @@
+class SumOfMultiples
+  def initialize(*num)
+    @one,@two,@three = *num
+  end
+  def to(number)
+  end
+end
