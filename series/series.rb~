@@ -1,0 +1,16 @@
+class Series
+  def initialize(num)
+    @num = num
+  end
+
+  def slices(slicer)
+    slice_list = []
+    whole_list = []
+    @num.to_s.split("").each do |j|
+    1.upto(slicer) do 
+      slice_list.push(j)
+    end
+    whole_list.push(slice_list)
+    end
+  end
+end
