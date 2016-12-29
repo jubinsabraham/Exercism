@@ -1,0 +1,9 @@
+class PrimeFactors
+  def self.for(num)
+    prime_array = [] if num = 1
+    num.prime_division do |i|
+      i.last times do
+        prime_array.push(i.first)
+      end
+    end
+    

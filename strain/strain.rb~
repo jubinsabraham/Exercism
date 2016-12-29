@@ -1,0 +1,6 @@
+class Array
+  def self.keep(num)
+    return num.select { |i| i i < 10 }
+  end
+end
+    
