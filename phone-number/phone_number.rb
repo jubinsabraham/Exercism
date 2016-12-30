@@ -37,5 +37,5 @@ class PhoneNumber
 
   def stripped
     @num.gsub(/[\D]/,'')
-end    
+  end    
 end

@@ -1,0 +1,8 @@
+class BeerSong
+
+  def verse(first,last)
+    suffix "+" prefix
+  end
+
+  def prefix
+

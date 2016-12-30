@@ -1,0 +1,10 @@
+class ETL
+  def self.transform
+    self.each do |key,value|
+      hash = Hash.new(0).map { |key1,value1|
+        hash.key1 = value.to_s
+        hash.value1 = key
+      }
+    end
+  end
+end

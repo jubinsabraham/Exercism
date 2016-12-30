@@ -1,0 +1,18 @@
+class Trinary
+
+  def initialize(num)
+    @num = num
+  end
+
+  def to_decimal
+    c = 0
+    while c <= @num.length - 1
+      @num.chars.reverse.to_i each do |i|
+        sum =  sum + i * 3 ** c
+        c = c + 1
+      end
+    end
+    sum
+  end
+end
+    

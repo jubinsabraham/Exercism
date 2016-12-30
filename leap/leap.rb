@@ -1,8 +1,6 @@
 class Year
   def self.leap?(leap_year)
-    if leap_year % 4 == 0 && leap_year % 100 !=0 || leap_year % 400 == 0
-      return  TRUE
-    end
+     leap_year % 4 == 0 && leap_year % 100 != 0 || leap_year % 400 == 0
   end
 end
     
